@@ -1,0 +1,86 @@
+body {
+    background-color: #eeeeee;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #1f2949;
+    color: #ffffff;
+    max-width: 330px;
+    text-align: center;
+    background-image: url(../images/background.png);
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0,0,0,9) 0 10px 50px;
+}
+
+.busca {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.busca input {
+    background-color: #0a1435;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.busca .btn-busca {
+    background-color: #0a1435;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0.8;
+}
+
+.busca .lupa {
+    width: 30px;
+    padding: 6px;
+    opacity: 0.8;
+}
+
+.info-primary {
+    margin: 30px;
+}
+
+.info-primary h1 {
+    font-size: 18px;
+}
+
+.info-primary .temperature {
+    font-size: 68px;
+    margin: 20px 0px;
+}
+
+.info-primary .condition {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.info-secondary {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.info-secondary .umidade, .velocidade-do-vento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
